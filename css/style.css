@@ -1,13 +1,49 @@
-body {
-    display: flex;
-   align-items: center;
-    justify-content:center;
+* {
+    background-color: black;
 }
 
-.calculator-container {
-    background-color: black;
-    width: 500px;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
+.calcutator-container{
+    width: 300px;
+    margin: 10vh;
+    height: 400px;
+    background-color: darkgrey;
+    
+
 }
+
+.calculator {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.result-box {
+    text-align: right;
+    width: 180px ;
+    height: 30px;
+    background-color: white;
+    border-radius: 6px;
+
+}
+
+.button {
+    background-size: contain;
+    border-radius: 5px;
+    background-color:#2C3639;
+    color: whitesmoke;
+    padding: 8px;
+    margin: 2px;
+    width: 50px;
+    
+}
+
+#clear, #delete, #divide, #multiply, #subtract, #add, #equals{
+    background-size: contain;
+    border-radius: 5px;
+    background-color:darkorange;
+    color: whitesmoke;
+    padding: 8px;
+    margin: 2px;
+    width: 50px;
+    outline:none;
+} 
